@@ -1,0 +1,23 @@
+.project-container {
+    background-image: url("/background.png");
+    height: 100vh;
+    width: 100vw;
+    /* background-color: black; */
+    color: white;
+}
+
+.heading-row {
+    border: 1px solid gold;
+    padding: 20px;
+    /* margin-top: 10px; */
+    /* background-color: black;     */
+}
+
+.project-buttons-row {
+    display: flex;
+    justify-content: center;
+}
+
+.project-buttons{
+    width: 720px;
+}

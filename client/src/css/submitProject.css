@@ -1,0 +1,27 @@
+.form-container {
+    background-image: url("/background.png");
+    text-align: center;
+    /* background-color: #000000; */
+    height: 100vh;
+    color: white;
+
+
+}
+
+.main-form-row {
+    display: flex;
+    justify-content: center;
+}
+.submitProjectForm {
+    background: rgba(13, 13, 65, 0.603);
+    max-width : 720px;
+    border: 1px solid gray;
+    box-shadow: 2px 1px 10px 5px blue;
+
+    text-align: center;
+}   
+
+.button-row {
+    width: 100%;
+}
+

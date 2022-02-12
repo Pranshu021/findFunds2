@@ -1,0 +1,1 @@
+# Decentralized Crowdfunding Platform running on Ethereum blockchain.

@@ -1,0 +1,38 @@
+/* #000000 (Black), #14213D (Dark Blue), #F77F00 (Goldish), #FCBF49 (Gray ), #EAE2B7 (White) */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    background : #14213D !important;
+}
+
+.f-navbar-symbol {
+    font-size: 28pt;
+}
+
+.nav-link {
+    color: #F77F00 !important;
+    font-size: 16pt;
+}
+
+.nav-link:hover {
+    color: white !important;
+
+}
+
+.nav-item {
+    color: white;
+}
+
+.navbar-brand {
+    color: #F77F00 !important;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+.links {
+    text-decoration: none !important;
+}

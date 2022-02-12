@@ -1,0 +1,47 @@
+
+.home-container {
+    background-image: url("/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* background-color: #000000; */
+    width: 100vw;
+    min-height: 100vh;
+    overflow-y: hidden;
+    color: gold;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
+
+.main-row {
+    display: flex;
+    /* border: 1px solid gold; */
+    max-width: 720px;
+    margin: auto;
+    background: rgba(3, 21, 43, 0.959);
+    border: 1px solid black;
+    box-shadow: 1px 1px 4px 2px blue;
+}
+
+.f-symbol {
+    font-size: 42pt;
+}
+
+.heading {
+    letter-spacing : 10px;
+}
+
+.description {
+    color: white;
+    font-size: 18pt;
+}
+
+.home-buttons-row {
+    margin: auto;
+    max-width: 720px;
+}
+
+.home-buttons {
+    padding: 30px;
+    width: 100%;
+}

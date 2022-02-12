@@ -1,0 +1,24 @@
+.invest-form-container {
+    background-image: url("/background.png");
+    /* background: #000000; */
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.invest-form-row {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 100px; */
+    max-width: 720px;
+    padding: 50px;
+    box-shadow: 2px 1px 10px 5px blue;
+}
+
+.invest-form {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 720px;
+}
