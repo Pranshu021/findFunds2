@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.6.0;
-import './fundingBank.sol';
+import './FundingBank.sol';
 
 contract CrowdFunding {
     uint64 numberOfProjects;
@@ -35,7 +35,7 @@ contract CrowdFunding {
     event amountInvestedInProject(address _projectAddress, address _investorAddress, uint256 _amount);
     event fundingReleased(address _projectAddress);
 
-    constructor(address payable _fundingBankAddress) public {
+    constructor(address payable _fundingBankAddress) {
         owner = msg.sender;
         Bank = FundingBank(_fundingBankAddress);
     }

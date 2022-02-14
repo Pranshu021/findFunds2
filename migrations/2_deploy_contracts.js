@@ -1,5 +1,5 @@
-var crowdFunding = artifacts.require("./crowdFunding.sol");
-var fundingBank = artifacts.require("./fundingBank.sol");
+var crowdFunding = artifacts.require("./CrowdFunding.sol");
+var fundingBank = artifacts.require("./FundingBank.sol");
 
 module.exports = async function(deployer, accounts) {
   await deployer.deploy(fundingBank);
